@@ -1,0 +1,10 @@
+{
+  "name": "fake",
+  "version": "0.0.0",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "express": "~3.4.7",
+    "node-uuid": "~1.4.1"
+  }
+}

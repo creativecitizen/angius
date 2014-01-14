@@ -1,0 +1,15 @@
+<div id="rectangle">
+	<div id="cube" ng-click="clickOn()" ng-mouseleave="hide();">
+		<span id="c{{$index}}" ng-animate="'animate'" ng-mouseover="showTeaser($index)" ng-mouseenter="hide($index)" ng-class="cube" class="ssCube" ng-repeat="cube in cubes track by $index"></span>
+	</div>
+	<div id="left">
+		<div id="lecteur">
+			<span ng-show="readerOn" ng-mouseleave="close()" id="reader">
+				<span id="teaser{{$index}}" ng-click="reader.action" ng-repeat="reader in readers">{{reader.label}}</span>
+			</span>
+		</div>
+		<div id="contenu">
+			<div ng-include="content"></div>
+		</div>
+	</div>
+	</div>

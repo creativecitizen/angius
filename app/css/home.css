@@ -1,0 +1,15 @@
+#home { 
+height:10%;
+}
+#home > div.text {
+	font-size: 250px;
+font-family: fantasy;
+margin-top: 20%;
+color: rgb(216, 213, 213);
+text-align: center;
+}
+
+#all.home {
+	width:100%;
+	height:10%;
+}
